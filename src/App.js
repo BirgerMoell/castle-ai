@@ -27,7 +27,7 @@ function App() {
         <p>We have a super amazing bot that creates Stable Diffusion images
           from 1.5! Like this one!
         </p>
-        <img src={symmetri} height="350px" alt="symmetry" />
+        <img  className="App-logo" src={symmetri} height="350px" alt="symmetry" />
 
         
         <h4>Slides</h4>
