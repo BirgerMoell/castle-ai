@@ -1,10 +1,12 @@
 import logo from './castle.png';
+import symmetri from "./queen.png"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p></p>
         <a href="https://discord.gg/3twBZS3D" target="_blank" >
           <img src={logo} className="App-logo" alt="logo" />
         </a>
@@ -22,6 +24,11 @@ function App() {
           Join our Discord!
         </a>
 
+        <p>We have a super amazing bot that creates Stable Diffusion images
+          from 1.5! Like this one!
+        </p>
+        <img src={symmetri} height="350px" alt="symmetry" />
+
         
         <h4>Slides</h4>
 
@@ -33,6 +40,9 @@ function App() {
         >
           Stable Diffusion
         </a>
+
+        <p></p>
+      
 
 
 
