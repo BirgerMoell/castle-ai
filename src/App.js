@@ -42,6 +42,17 @@ function App() {
         </a>
 
         <p></p>
+
+        <a
+          className="App-link"
+          href="https://docs.google.com/presentation/d/10HYfRz0Z_LRg9jYNKHCTxnFks2Vjl4GCTcpowRUvGiE/edit?usp=sharing          "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Speech and Whisper
+        </a>
+
+        <p></p>
       
 
 
