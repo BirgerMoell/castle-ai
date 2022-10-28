@@ -1,23 +1,44 @@
-import logo from './logo.svg';
+import logo from './castle.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <a href="https://discord.gg/3twBZS3D" target="_blank" >
+          <img src={logo} className="App-logo" alt="logo" />
+        </a>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Welcome to Castle AI  <span>🏰 🧠</span>
         </p>
+        <p>The AI community building the present.</p>
+
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://discord.gg/3twBZS3D"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Join our Discord!
         </a>
+
+        
+        <h4>Slides</h4>
+
+        <a
+          className="App-link"
+          href="https://docs.google.com/presentation/d/1NjSRYABD6wczBRf_QOee-pCXogbdwjNQpmvI3A6qzpc/edit?usp=sharing          "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Stable Diffusion
+        </a>
+
+
+
       </header>
+
+
     </div>
   );
 }
